@@ -1,5 +1,3 @@
 export default function Logo() {
-  return (
-    <img src="../src/assets/images/logo.jpg" alt="Logo" className="logo" />
-  );
+  return <img src="../assets/logo.png" alt="Logo" className="logo" />;
 }

@@ -4,9 +4,8 @@ import Footer from "./Footer";
 export default function Sidebar() {
   return (
     <div className="cites__container">
-      <NavLink to="/" className="nav__logo">
-        <Logo />
-      </NavLink>
+      <Logo />
+
       <div className="buttons__nav">
         <NavLink to="cities" className="btn__nav">
           Cities

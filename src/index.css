@@ -93,13 +93,7 @@ body {
 .nav__list a:hover {
   color: var(--color-light-gray);
 }
-.nav__logo {
-  font-size: 1.3rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: var(--color-light);
-}
+
 .nav__link a.active {
   color: var(--color-dark-navy);
   background-color: var(--color-light);

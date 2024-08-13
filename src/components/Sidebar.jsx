@@ -5,7 +5,6 @@ export default function Sidebar() {
   return (
     <div className="cites__container">
       <Logo />
-
       <div className="buttons__nav">
         <NavLink to="cities" className="btn__nav">
           Cities

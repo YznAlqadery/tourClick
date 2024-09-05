@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { useCities } from "../context/CitiesContext";
 
 function getFlagEmoji(countryCode) {
   const codePoints = countryCode
@@ -17,8 +18,9 @@ const flagemojiToPNG = (flag) => {
   );
 };
 
-export default function CityItem({ city, deleteCity }) {
+export default function CityItem({ city }) {
   const { id, position } = city;
+  const { deleteCity } = useCities();
   return (
     <li className="city__item">
       <Link

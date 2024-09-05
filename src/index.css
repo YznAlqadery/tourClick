@@ -440,9 +440,15 @@ footer {
   color: var(--color-dark-gray);
   margin-top: 1rem;
 }
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 /* Media Queries */
 
-@media screen and (width <=760px) {
+@media (width <=700px) {
   .footer__text {
     font-size: 0.8rem;
   }
@@ -482,7 +488,7 @@ footer {
     height: 100vh;
   }
 }
-@media screen and (width <= 670px) {
+@media (width <= 670px) {
   .app__layout {
     grid-template-columns: 1fr;
   }
@@ -518,7 +524,7 @@ footer {
     font-size: 1.2rem;
   }
 }
-@media screen and (width <= 570px) {
+@media (width <= 570px) {
   .city__item {
     padding: 1rem;
   }

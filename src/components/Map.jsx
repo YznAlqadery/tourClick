@@ -36,9 +36,10 @@ function ChangeMapPosition({ position }) {
 }
 
 export default function Map({ cities }) {
-  const [position, setPosition] = useState([51.505, -0.09]);
+  const [position, setPosition] = useState([32, 36]);
 
   const [latitude, longitude] = useLocation();
+
   useEffect(() => {
     if (latitude && longitude) setPosition([latitude, longitude]);
   }, [latitude, longitude]);

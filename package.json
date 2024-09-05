@@ -15,6 +15,7 @@
     "react-datepicker": "^7.3.0",
     "react-dom": "^18.3.1",
     "react-leaflet": "^4.2.1",
+    "react-loader-spinner": "^6.1.6",
     "react-router-dom": "^6.26.0",
     "vite-plugin-eslint": "^1.8.1"
   },
